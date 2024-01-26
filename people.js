@@ -4,4 +4,4 @@ function test() {
     console.log('test');
 }
 
-module.exports=name
+module.exports= {name, a , test}
