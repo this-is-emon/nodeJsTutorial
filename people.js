@@ -11,8 +11,9 @@
 */
 
 //It is said that all codes in  is wrapped by a “Module Wrapper Function(IIFE function)” in nod.Js
+//But this IIFE function remains invisible in the code like below:
 
-(function (exports, require, module, __filename, __dirname) {
+//(function (exports, require, module, __filename, __dirname) {
     
     const name = ['Sakib','Tamim','Himu','Misir Ali']
     const a = 5;
@@ -20,7 +21,7 @@
         console.log('test');
     }
 
-    module.exports= {name, a , test}
-    return module.exports;
+    //module.exports= {name, a , test}
+    //return module.exports;
 
-})();
+//})();
